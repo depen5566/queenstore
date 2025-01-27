@@ -1,0 +1,78 @@
+.banner
+{
+    background: url("https://itkoding.com/wp-content/uploads/2023/07/background-3d-keren.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: rgb(255, 255, 255);
+}
+
+.lingkaran
+{
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+    margin: auto;
+    height: 150px;
+    color: #fff;
+    background-color: #dc3545;
+}
+
+.lingkaran i {
+    position: relative;
+    top: 30px;
+}
+
+.crop-img {
+    object-fit: cover;
+}
+
+.tim img {
+    width: 250px;
+    border:10px solid #cccccc;
+}
+
+a.sosial {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    border-radius: 50%;
+    background-color: #333;
+    line-height: 40px;
+}
+
+.client img {
+    height: auto;
+    max-height: 50px;
+}
+
+.kontak {
+    background-image: url(https://wallpaperaccess.com/full/1867010.jpg);
+    background-size: cover;
+    padding-bottom: 20%;
+    padding-top: 20%;
+    color: #fff;
+}
+
+.copyright {
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20230617/pngtree-3d-rendered-copyright-symbol-image_3629131.jpg);
+    background-size: cover;
+    padding-bottom: 20%;
+    padding-top: 20%;
+    color: #fff;
+}
+
+.kirim:hover
+{
+    color: red;
+}
+
+.kirim
+{
+    width: 200px; /* lebar kotak */
+  height: 100px; /* tinggi kotak */
+  background-color: #f2f2f2; /* warna latar belakang */
+  border: 1px solid #ccc; /* garis batas */
+  padding: 20px; /* jarak antara konten dan batas */
+}
